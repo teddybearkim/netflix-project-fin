@@ -1,0 +1,38 @@
+.showMore {
+  margin-bottom: 3rem;
+  position: absolute;
+  right: 19rem;
+  bottom: -77rem;
+}
+.cast-flex {
+  display: flex;
+}
+.cast {
+  display: inline-block;
+  margin-left: 45px;
+}
+
+.showMore:hover {
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #000;
+}
+.item-align {
+  color: #fff;
+}
+
+.card-body {
+  text-align: center;
+  color: #fff;
+}
+.cast h5, .cast p {
+  color: #fff;
+}
+
+@media (max-width: 430px) {
+  .cast {
+    display: none;
+  }
+
+  
+}

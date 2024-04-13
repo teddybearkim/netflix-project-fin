@@ -1,0 +1,19 @@
+.carousel-container{
+  overflow: hidden;
+  height: 440px;
+}
+
+
+@media (max-width:480px){
+  .carousel-container{
+      height: 320px;
+      display: flex;
+      justify-content: space-between;
+  }
+}
+
+h3{
+  color:white !important;
+  padding-left: 50px;
+  padding-top:20px;
+}

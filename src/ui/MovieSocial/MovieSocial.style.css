@@ -1,0 +1,23 @@
+.overlay-info > * {
+  margin-right: 10px;
+}
+.adult {
+  color: var(--color-crimson);
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  .overlay-info {
+    font-size: 0.8rem;
+  }
+  .overlay-info > * {
+    margin-right: 7px;
+  }
+}
+@media (max-width: 430px) {
+  .overlay-info {
+    font-size: 0.7rem;
+  }
+  .overlay-info > * {
+    margin-right: 5px;
+  }
+}

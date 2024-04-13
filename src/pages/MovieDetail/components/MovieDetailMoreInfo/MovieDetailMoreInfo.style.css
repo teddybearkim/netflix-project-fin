@@ -1,0 +1,36 @@
+
+.more-info-area .info-btn {
+  margin-top: 1rem;
+  border: none;
+  background: var(--color-white);
+  color: var(--color-purple);
+  margin-right: 1rem;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+.more-info-area .info-btn.active {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  background-color: red;
+}
+.more-info-area .movie-card:hover {
+  transform: scale(1);  
+}
+
+/* mobile */
+@media (max-width: 430px) {
+  .more-info-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .more-info-area button {
+    width: 85%;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+  .more-info-area .info-btn {
+    margin-right: 0;
+  }
+}

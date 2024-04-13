@@ -1,0 +1,20 @@
+.detail-banner {
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.detail-banner:before {
+  content: '';
+  background: linear-gradient(to top, var(--color-black), transparent);
+  position: absolute;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+}
+/* mobile */
+@media (max-width: 430px) {
+  .detail-banner{
+    display: none;
+  }
+}

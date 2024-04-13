@@ -1,0 +1,57 @@
+html{
+  background-color: #181819;
+}
+
+div{
+  background-color: #000;
+}
+
+
+.bg-body-tertiary {
+  background-color: #181819 ;
+}
+
+.logo {
+  width: 120px; 
+  height: auto; 
+}
+.nav-list {
+  color : #ed0808;
+}
+.nav-list:hover {
+  background-color: #ed0808;
+  scale: 1.1;
+  border-radius: 15px; 
+  transition: 0.5s;
+  color: #fff
+}
+.navbar-nav .nav-link {
+  color: #fff !important; 
+  margin-right: 20px; 
+  
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ccc ; 
+}
+
+.form-control {
+  background-color: #ed0808; 
+  color: #fff;
+  border-color: #f80404;
+}
+
+.btn-outline-success {
+  color: red; 
+  border-color: red; 
+}
+
+.btn-outline-success:hover {
+  background-color: red; 
+  color: #fff;
+}
+
+
+.navContainer{
+  z-index: 2000;
+}
